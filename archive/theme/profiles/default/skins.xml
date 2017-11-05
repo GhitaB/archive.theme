@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+
+  <object name="archive_theme" meta_type="Filesystem Directory View"
+    directory="archive.theme:skins/archive_theme" />
+
+</object>
