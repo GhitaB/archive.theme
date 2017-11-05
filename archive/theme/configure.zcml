@@ -9,6 +9,12 @@
 
   <include package=".upgrades" />
 
+  <cmf:registerDirectory
+      name="skins"
+      directory="skins"
+      recursive="True"
+      />
+
   <genericsetup:registerProfile
       name="default"
       title="archive.theme"
