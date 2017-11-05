@@ -1,4 +1,23 @@
+/* ===========================================================================
+ * Archive Theme
+ * ===========================================================================
+ *
+ * Colors: https://coolors.co/c9cba3-ffe1a8-e26d5c-723d46-472d30
+ *
+ * #C9CBA3
+ * #FFE1A8
+ * #E26D5C
+ * #723D46
+ * #472D30
+ */
+
 body {
-  color: red;
-  background: red;
+  background: #C9CBA3;
+}
+
+#visual-portal-wrapper {
+  background: #FFFFFF;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
 }
