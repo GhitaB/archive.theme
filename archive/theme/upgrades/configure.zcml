@@ -17,4 +17,15 @@
       import_steps="skins"
       />
   </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+    source="1.0.0"
+    destination="1.0.1"
+    profile="archive.theme:default">
+
+    <genericsetup:upgradeDepends
+      title="Upgrade step for archive.theme: import cssregistry"
+      import_steps="cssregistry"
+      />
+  </genericsetup:upgradeSteps>
 </configure>
