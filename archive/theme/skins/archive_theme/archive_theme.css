@@ -14,9 +14,11 @@ body {
 
 #visual-portal-wrapper {
   background: #FFFFFF;
-  max-width: 1200px;
+  max-width: 1700px;
   margin: 0 auto;
   overflow: auto;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 
 #portal-globalnav {
@@ -42,4 +44,13 @@ body {
 
 #portal-globalnav a:hover{
   background: #E26D5C;
+}
+
+#portal-footer-wrapper {
+  padding-top: 1em;
+  background: #FFE1A8;
+}
+
+#portal-footer {
+  display: none;
 }
