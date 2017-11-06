@@ -17,8 +17,6 @@ body {
   max-width: 1700px;
   margin: 0 auto;
   overflow: auto;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
 }
 
 #portal-globalnav {
