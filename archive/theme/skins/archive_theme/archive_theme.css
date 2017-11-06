@@ -85,3 +85,19 @@ body {
   background-color: #FFE1A8;
   color: #723D46;
 }
+
+a:link, a:visited,
+#content a:visited, dl.portlet a:visited,
+#content a:link, dl.portlet a:link {
+  color: #723D46;
+}
+
+#content a:visited:hover, dl.portlet a:visited:hover,
+#content a:link:hover, dl.portlet a:link:hover,
+#portal-breadcrumbs a:hover {
+  color: #E26D5C;
+}
+
+#content a:hover, dl.portlet a:hover {
+  color: #E26D5C !important;
+}
