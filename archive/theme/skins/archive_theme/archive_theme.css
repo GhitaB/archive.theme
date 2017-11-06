@@ -99,3 +99,12 @@ a:link, a:visited,
 #content a:hover, dl.portlet a:hover {
   color: #E26D5C !important;
 }
+
+#portal-personaltools dd a:hover {
+  background: #E26D5C;
+}
+
+#portal-personaltools,
+#portal-personaltools dd {
+  background-color: #C9CBA3;
+}
