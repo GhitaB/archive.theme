@@ -48,7 +48,15 @@ body {
 
 #portal-footer-wrapper {
   padding-top: 1em;
-  background: #FFE1A8;
+  background: #472D30;
+}
+
+#portal-footer-wrapper a {
+  color: #E26D5C;
+}
+
+#portal-siteactions li a:hover {
+  color: #FFE1A8;
 }
 
 #portal-footer {
