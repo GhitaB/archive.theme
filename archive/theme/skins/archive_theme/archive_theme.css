@@ -54,3 +54,26 @@ body {
 #portal-footer {
   display: none;
 }
+
+#edit-bar {
+  background-color: #FFE1A8;
+  border-color: #FFE1A8;
+}
+
+#content-views {
+  background-color: #FFE1A8;
+}
+
+#content-views a {
+  color: #723D46;
+}
+
+#contentActionMenus,
+#contentActionMenus,
+#contentActionMenus dl.actionMenu a,
+#contentActionMenus dl.actionMenu.activated dd {
+  background: #FFE1A8;
+  border-color: #FFE1A8;
+  background-color: #FFE1A8;
+  color: #723D46;
+}
