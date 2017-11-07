@@ -1,15 +1,15 @@
 /* ===========================================================================
  * Archive Theme
  * ===========================================================================
- * #C9CBA3
- * #FFE1A8
- * #E26D5C
- * #723D46
- * #472D30
+ *   #E26E5C  #E2A05C  #BE4D81
+ *   #FFC1B7  #FFDBB7  #EAA8C6
+ *   #FF9D8D  #FFC78D  #DA78A5
+ *   #C44A37  #C47E37  #A52E64
+ *   #9E2C1A  #9E5D1A  #851648
  */
 
 body {
-  background: #C9CBA3;
+  background: #FFDBB7;
 }
 
 #visual-portal-wrapper {
@@ -20,18 +20,18 @@ body {
 }
 
 #portal-globalnav {
-  background: #FFE1A8;
+  background: #FFDBB7;
 }
 
 #portal-globalnav li a {
-  background: #FFE1A8;
-  color: #723D46;
+  background: #FFDBB7;
+  color: #9E5D1A;
   min-width: 0;
   padding: 0.5em 1em 0.5em 1em;
 }
 
 #portal-globalnav li.selected a {
-  background: #723D46;
+  background: #9E5D1A;
   color: #FFFFFF;
 }
 
@@ -46,7 +46,7 @@ body {
 
 #portal-footer-wrapper {
   padding-top: 1em;
-  background: #472D30;
+  background: #9E2C1A;
 }
 
 #portal-footer-wrapper a {
@@ -54,7 +54,7 @@ body {
 }
 
 #portal-siteactions li a:hover {
-  color: #FFE1A8;
+  color: #FFDBB7;
 }
 
 #portal-footer {
@@ -62,32 +62,32 @@ body {
 }
 
 #edit-bar {
-  background-color: #FFE1A8;
-  border-color: #FFE1A8;
+  background-color: #FFDBB7;
+  border-color: #FFDBB7;
 }
 
 #content-views {
-  background-color: #FFE1A8;
+  background-color: #FFDBB7;
 }
 
 #content-views a {
-  color: #723D46;
+  color: #9E5D1A;
 }
 
 #contentActionMenus,
 #contentActionMenus,
 #contentActionMenus dl.actionMenu a,
 #contentActionMenus dl.actionMenu.activated dd {
-  background: #FFE1A8;
-  border-color: #FFE1A8;
-  background-color: #FFE1A8;
-  color: #723D46;
+  background: #FFDBB7;
+  border-color: #FFDBB7;
+  background-color: #FFDBB7;
+  color: #9E5D1A;
 }
 
 a:link, a:visited,
 #content a:visited, dl.portlet a:visited,
 #content a:link, dl.portlet a:link {
-  color: #723D46;
+  color: #9E5D1A;
 }
 
 #content a:visited:hover, dl.portlet a:visited:hover,
@@ -106,5 +106,9 @@ a:link, a:visited,
 
 #portal-personaltools,
 #portal-personaltools dd {
-  background-color: #C9CBA3;
+  background-color: #FFDBB7;
+}
+
+div.managePortletsLink, a.managePortletsFallback {
+  background: #FFDBB7;
 }
