@@ -6,10 +6,19 @@
  *   #FF9D8D  #FFC78D  #DA78A5
  *   #C44A37  #C47E37  #A52E64
  *   #9E2C1A  #9E5D1A  #851648
+ *   #222222
  */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Rozha+One&subset=latin-ext');
 
 body {
+  font-family: 'Lato', sans-serif;
   background-image: url("./bg.png");
+  color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rozha One', serif;
+  color: #222222;
 }
 
 #visual-portal-wrapper {
