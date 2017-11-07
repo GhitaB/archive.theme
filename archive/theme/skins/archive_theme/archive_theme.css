@@ -123,6 +123,12 @@ a:link, a:visited,
 
 div.managePortletsLink, a.managePortletsFallback {
   background: #EAA8C6;
+  border-radius: 0;
+}
+
+#edit-bar, #content ul.formTabs, #content-core ul.formTabs,
+#portal-personaltools {
+  border-radius: 0;
 }
 
 #content ul.formTabs {
