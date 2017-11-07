@@ -9,7 +9,7 @@
  */
 
 body {
-  background: #FFDBB7;
+  background-image: url("./bg.png");
 }
 
 #visual-portal-wrapper {
@@ -110,5 +110,10 @@ a:link, a:visited,
 }
 
 div.managePortletsLink, a.managePortletsFallback {
-  background: #FFDBB7;
+  background: #EAA8C6;
+}
+
+#content ul.formTabs {
+  background: #EAA8C6;
+  border-color: #EAA8C6;
 }
