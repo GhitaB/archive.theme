@@ -136,14 +136,17 @@ div.managePortletsLink, a.managePortletsFallback {
   border-color: #EAA8C6;
 }
 
+body.template-folder_full_view span.archive-item-details,
 body.template-archive_listing span.archive-item-details {
   float: right !important;
 }
 
+body.template-folder_full_view dl dt:hover,
 body.template-archive_listing div#content-core dl dt:hover {
   background: #FFDBB7;
 }
 
+body.template-folder_full_view span.summary span.description,
 body.template-archive_listing div#content-core span.summary span.description {
   font-weight: normal;
   font-size: 80%;
