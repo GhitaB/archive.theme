@@ -135,3 +135,16 @@ div.managePortletsLink, a.managePortletsFallback {
   background: #EAA8C6;
   border-color: #EAA8C6;
 }
+
+body.template-archive_listing span.archive-item-details {
+  float: right !important;
+}
+
+body.template-archive_listing div#content-core dl dt:hover {
+  background: #FFDBB7;
+}
+
+body.template-archive_listing div#content-core span.summary span.description {
+  font-weight: normal;
+  font-size: 80%;
+}
